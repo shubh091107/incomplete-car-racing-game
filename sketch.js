@@ -20,7 +20,7 @@ tr =loadImage('images/track.jpg')
 }
 
 function setup(){
-  canvas = createCanvas(displayWidth - 150, displayHeight-150);
+  canvas = createCanvas(displayWidth - 50, displayHeight-50);
   database = firebase.database();
   game = new Game();
   game.getState();
